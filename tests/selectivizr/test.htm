@@ -619,11 +619,15 @@ will effectively reset everything to PHP defaults.</code></span></span></div><di
   
   
   <script src="_assets/js/jquery.js"></script>
-  
+  <!--[if (gte IE 6)&(lte IE 8)]>
+  <script type="text/javascript" src="_assets/js/selectivizr.js"></script>
+  <noscript><link rel="stylesheet" href="[fallback css]" /></noscript>
+<![endif]--> 
   <!-- scripts concatenated and minified via ant build script-->
   <script src="_assets/js/plugins.js"></script>
   <script src="_assets/js/script.js"></script>
   <!-- end scripts-->
+
   
 
 </body></html>

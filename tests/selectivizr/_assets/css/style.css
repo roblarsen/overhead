@@ -74,7 +74,8 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 /* PRIMARY STYLES */
 @font-face { font-family: "MolotRegular"; src: url('fonts/Molot.eot'); src: local("fonts/Molot"), local("fonts/Molot"), url('fonts/Molot.woff') format("woff"), url('fonts/Molot.ttf') format("truetype"), url('fonts/Molot.svg#Molot') format("svg"); }
-@font-face { font-family: "InsolentRegular"; src: url('fonts/insolent.eot'); src: url('fonts/insolent.woff') format('woff'), url('fonts/insolent.ttf') format('truetype'); }
+@font-face { font-family: "MolotRegular"; src: url('fonts/insolent.eot'); src: local("fonts/insolent"), local("fonts/insolent"), url('fonts/insolent.woff') format("woff"), url('fonts/insolent.ttf') format("truetype"), url('fonts/insolent.svg#webfontD7S5Wv86') format("svg"); }
+
 
 /* Hebrew */
 @font-face {
